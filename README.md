@@ -27,9 +27,11 @@
 
 나머지 정보들은 [여기](https://open.neis.go.kr/portal/data/service/selectServicePage.do?page=1&rows=10&sortColumn=&sortDirection=&infId=OPEN17020190531110010104913&infSeq=2&cateId=A0001)서 발급받으실 수 있습니다.
 
+```env
 EXPO_PUBLIC_API_KEY= '당신의 API 키'
 EXPO_PUBLIC_STATECODE = '시도교육청코드'
 EXPO_PUBLIC_SCHULCODE = '표준학교코드'
+```
 
 이후 아래 명령어를 실행해 줍니다.
 
