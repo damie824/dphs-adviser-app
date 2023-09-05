@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pc-api-5007445472579353563-753",
+  "private_key_id": "293929fc05dec68399068978306576f60545866c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6rE3vVEeE3is/\nx+d5qmTzCFeMLv8yK0LWIVvHO7yl6OPV0BTBGpECsTuQ2hr3TAjSJsWAmKGeYHLy\nMs9hYcryjGmu6xgPKaGDyfYob3tv6S29SYxBDsUheFNdhWJTXit9BTALRbPcsms/\njxyTF2sSPZVEyPpySjinVVUY46GwM7e4dEEo3q87AkqQ88Vuvem+yXbk5hNXDl9B\nNDHK5HXbTmFLNj+XW+Hli/Vu/8HHlY8tg3jx65Ewukut3CJBXi5+uukR5bn0B1pc\nb+Qq33BlYSqTDpsx/immV+YZi+GsJSIxSigOcfyVYs2xT2EuGCg63bLRytR9AVLx\nGmkuSXsbAgMBAAECggEAHTtWM6AoWETM06ljih3baQ4UB5O5yrVo5fdF/qZQHaWh\nPUjfDHjd3w9kmy5MWBAZYYSeG6EgeJifPLt61hkQ8CJ6JOC+XRbRKr4O72NlxQSS\nxmLPX8YHAKgYWztum6Inf+W2vE0nTpbHTKYF0igx+s1B+V+E4y4pk6qShNnrO+2C\n03l/6PRFJFlKRc3ZozAgRyU3w800fVG4I79qmNnKaeCbiAB2NtnSilHBT8wHZFD2\nf14iZ32ggjQTEgXtvUomwPlqf9SVOMhgQtDFi5f8+BI1GNqp9A53HzHZoQO2j106\nRW9TLM6kE6pvABDeRMy3GPL8636SK6ZI6F8ryuZNoQKBgQD9BItYajucMzdUC48W\n7Q4KyblAvL9DmLblds+SMRU8TePyJ1yzTsryr5ciMeI9nIKMEdHw4bHu/Ec71Y6J\nDXEp9QDyHLnTwFJNhhQ/pzS6y5XAclHIauEXkFu1ZNdX0WkLuu231Ujb2Wp0F+QY\nva32969zcRTCzBRpKiTLlqUPJQKBgQC835JZd5b7Zo47W6Y3nEi2bo6Xph191BJb\n4wQtpXlVVSGo9qZn4ZfZ2sA3rXdnfWIZneO1nzU1yE6+Z/XMeb2fHiCEet161r1f\nTu6TNc0E9PrhWqYR+EtSd/Go3keXHWR5YHg6cGSbgTzD5sjRS2OLBaoo7pweRkAM\nbx5aydhtPwKBgB5Hg/GRzQ51ZqKtO3OP7QVHfN8Nd4o8ZW7ymAazzwnHfIcHROXE\ngS8n6ltSQvQCnfDrVQeRyvyBvnifpw4pyKgvxOw0mdyIgJD8gcHYXcwY/xPn2ne0\nqrlqMj90EP1Wd07LERXV9YEx9LZuAYMgeAg9Pgb/um9RgwPO4lZm8dvtAoGBAKGX\nyre/CK8o7FG+tPRpQxDKgDchCaRpOBfjn+SJ6chnYLgV5wOD0I60iLZaNImXjcIL\nAxKWF0lfind/rJ34HpMvjHSsRifd6AHOH3JVmoY+LxN1ohZHz/HL6zcmjiutGxR5\nxAODu6AML3gQUQo4LP95pj8E/w8r3YqF23ujrAazAoGAfK11z6/ziM7I04TLyEK+\nA+Lt3iiJGj7uZyF5ZfDVDm8cpf9cout7JC0CwP1Mxhllh/PoEYdVN/tNhwRh6dHA\n063qjePLTk0356ugybqYDwSgh5HfMFaMY8PdKXTrPMkqvxSSA30RA69P1jhwZ6Xw\nsyfG8czahy+Q1Aml6GstiGo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dphs-expo-builder@pc-api-5007445472579353563-753.iam.gserviceaccount.com",
+  "client_id": "101133879002618301694",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dphs-expo-builder%40pc-api-5007445472579353563-753.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
