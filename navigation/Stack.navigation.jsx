@@ -1,11 +1,13 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Ionicons } from "@expo/vector-icons";
 import { TouchableOpacity, useColorScheme } from "react-native";
-import Meals from "../screens/Stacks/Meals";
-import Schedules from "../screens/Stacks/Schedules";
+
+import Meals from "../screens/Stacks/meals/Meals";
+import Schedules from "../screens/Stacks/schedules/Schedules";
 import ChangeInfo from "../screens/Stacks/ChangeInfo";
 import Experiments from "../screens/Stacks/Experiment";
 import Ddays from "../screens/Stacks/Ddays";
+import PlannerToDos from "../screens/Stacks/planner/to-do";
 
 const Stack = createNativeStackNavigator();
 
@@ -121,6 +123,28 @@ export default function Stacks({ navigation: { navigate } }) {
               <TouchableOpacity
                 onPress={() => {
                   navigate("Tab", { screen: "Home" });
+                }}
+              >
+                <Ionicons
+                  name='ios-arrow-back-outline'
+                  size={24}
+                  color={isDark ? "white" : "black"}
+                />
+              </TouchableOpacity>
+            );
+          },
+        }}
+      />
+      <Stack.Screen
+        name='오늘 할 일'
+        component={PlannerToDos}
+        options={{
+          headerTitleAlign: "left",
+          headerLeft: () => {
+            return (
+              <TouchableOpacity
+                onPress={() => {
+                  navigate("Tab", { screen: "Planner" });
                 }}
               >
                 <Ionicons

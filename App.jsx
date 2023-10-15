@@ -42,8 +42,16 @@ export default function App() {
 
     const prepare = async () => {
       try {
-        const fonts = loadFonts([Ionicons.font]);
-        const assets = loadImages([require("./assets/banner-1.png")]);
+        const fonts = loadFonts([
+          Ionicons.font,
+          {
+            KyoboHandwriting: require("./assets/fonts/KyoboHandwriting2019.ttf"),
+          },
+        ]);
+        const assets = loadImages([
+          require("./assets/banner/api.png"),
+          require("./assets/banner/planner.png"),
+        ]);
 
         if (await getLogin()) {
           setLogin(true);

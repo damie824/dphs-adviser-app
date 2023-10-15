@@ -1,8 +1,6 @@
 import {
   Alert,
   Text,
-  TextInput,
-  Touchable,
   TouchableOpacity,
   View,
   useColorScheme,

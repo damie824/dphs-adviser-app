@@ -14,7 +14,7 @@
 
 ## How To Use It?
 
-[플래이스토어](), [앱스토어]()에서 다운로드하실 수 있어요 :)
+[플래이스토어](https://play.google.com/store/apps/details?id=com.damie824.dphsadviser), [앱스토어]()에서 다운로드하실 수 있어요 :)
 
 ## How To Use It For Another School?
 

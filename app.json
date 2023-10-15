@@ -2,7 +2,7 @@
   "expo": {
     "name": "dphs-adviser",
     "slug": "dphs-adviser",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -19,7 +19,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#285BFF"
       },
       "package": "com.damie824.dphsadviser"
     },

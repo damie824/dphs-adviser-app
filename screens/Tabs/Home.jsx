@@ -38,7 +38,21 @@ export default function Home({ navigation: { navigate } }) {
             <Banner background='#7534ca'>
               <ImageBackground
                 style={{ width: "100%", height: "100%" }}
-                source={require("../../assets/banner-1.png")}
+                source={require("../../assets/banner/api.png")}
+              />
+            </Banner>
+          </TouchableOpacity>
+        </BannerContainer>
+        <BannerContainer key='2'>
+          <TouchableOpacity
+            onPress={() => {
+              navigate("Tab", { screen: "Planner" });
+            }}
+          >
+            <Banner background='#7534ca'>
+              <ImageBackground
+                style={{ width: "100%", height: "100%" }}
+                source={require("../../assets/banner/planner.png")}
               />
             </Banner>
           </TouchableOpacity>
@@ -74,7 +88,7 @@ export default function Home({ navigation: { navigate } }) {
                 color={isDark ? "white" : "black"}
               />
             </View>
-            <Texts>급 식</Texts>
+            <Texts>급식표</Texts>
           </TouchableOpacity>
           <TouchableOpacity
             onPress={() => {
@@ -166,7 +180,9 @@ export default function Home({ navigation: { navigate } }) {
           </TouchableOpacity>
           <TouchableOpacity
             onPress={async () => {
-              await WebBrowser.openBrowserAsync("https://dphs.damie.works");
+              await WebBrowser.openBrowserAsync(
+                "https://github.com/damie824/dphs-adviser-app"
+              );
             }}
             style={{
               justifyContent: "center",
@@ -182,7 +198,7 @@ export default function Home({ navigation: { navigate } }) {
                 color={isDark ? "white" : "black"}
               />
             </View>
-            <Texts>앱 정보</Texts>
+            <Texts>개발자</Texts>
           </TouchableOpacity>
         </View>
       </MainContainer>
